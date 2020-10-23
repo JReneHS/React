@@ -1,0 +1,41 @@
+Introducción a React
+
+Ya sabe cómo escribir código en JavaScript. Este lenguaje es perfecto para crear pequeños sitios web dinámicos, pero para proyectos más grandes necesitaría una herramienta más poderosa. React es una biblioteca basada en JavaScript que le ofrece más funcionalidad con menos código y mejora el rendimiento general. ¿Interesado? ¡Entremos en ello!
+
+https://github.com/facebook/react
+
+
+
+Que es React
+
+React (o ReactJS ) es la biblioteca más popular desarrollada por Facebook para crear interfaces de usuario. Le permite crear varios elementos de la interfaz de usuario con su propia lógica y reutilizarlos en su código. Debido a su amplia funcionalidad, existe la idea errónea de que React es un marco, pero la verdad es que React es solo una biblioteca de JavaScript muy poderosa.
+
+
+Caracteristicas
+
+En React, divide la aplicación en varias partes independientes llamadas componentes y las combina para crear un sitio web. Podemos hacer una analogía con LEGO. Este set de construcción consta de varias piezas independientes con características propias como el color o el tamaño, y si las combinas de la forma correcta, verás el modelo LEGO terminado. La misma idea es cierta para React: si crea una aplicación utilizando componentes de React de la manera correcta, verá un sitio web que funciona como resultado.
+
+React hace que su aplicación sea más productiva. DOM (Document Object Model) es un objeto creado por el navegador que representa la estructura del documento, como etiquetas HTML y contenido. Cuando el usuario hace clic en el botón y se cargan nuevos datos, el navegador obtiene un nuevo DOM. Luego, debería actualizar toda la página, incluso si la diferencia entre el nuevo DOM y el antiguo DOM era solo una palabra. Esta estrategia no es óptima y conduce a la pérdida de memoria. Para resolver este problema, React utiliza el árbol de componentes de React , una representación DOM ligera que le permite actualizar fácilmente solo aquellos componentes que realmente se han cambiado. En este caso, si el cambio ocurrió en solo un componente con un <div>elemento, React actualizará solo ese<div>elemento y dejar los demás en su estado anterior. Como resultado, verá la página actualizada mucho más rápido.
+
+También es más fácil depurar la aplicación usando React. Existe un patrón para anidar componentes secundarios de React en componentes principales que le permite controlar el flujo de datos. Esto ayuda al desarrollador a encontrar errores más rápidamente y les da una mejor comprensión de toda la aplicación.
+
+Como puede ver, React tiene muchas ventajas importantes, por lo que los programadores lo usan mucho en sus aplicaciones.
+
+
+Historia
+
+React fue creado por Jordan Walke, un ingeniero de software de Facebook. Facebook lo usó por primera vez en 2011 en News Feed y luego lo adaptó para Instagram un año después. La idea de React se inspiró en XHP, un marco de componente HTML simple para PHP. La biblioteca creció muy rápidamente y se publicó en código abierto en 2013.
+
+Durante los 7 años de su existencia, React ha recolectado más de 150,000 estrellas y alrededor de 1,500 miembros en Github. Continúa creciendo con más de 7.000.000 de descargas semanales. Sigue siendo tendencia y está por delante de Angular y Vue.js para Web Frameworks . React ocupa el primer lugar como el marco web más buscado según la encuesta Stackoverflow de 2020.
+
+Hoy en día, hay más de 1,000,000 de sitios que usan React, incluidas grandes empresas como Facebook, Instagram, Twitter, Netflix, Dropbox, Yandex y otras. No hay duda de la popularidad de React en los años siguientes.
+
+https://insights.stackoverflow.com/survey/2020#technology-web-frameworks-professional-developers2
+
+https://insights.stackoverflow.com/survey/2020#technology-most-loved-dreaded-and-wanted-web-frameworks-wanted2
+
+https://www.similartech.com/technologies/react-js
+
+Conclusión
+
+Si escuchas una discusión entre desarrolladores de frontend, lo más probable es que escuches la palabra Reaccionar. React tiene una reputación bien merecida por sus ventajas, como componentes reutilizables, rendimiento mejorado y fácil depuración. Estará más convencido de los beneficios de React cuando lo conozca en la práctica.
